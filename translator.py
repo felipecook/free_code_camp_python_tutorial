@@ -4,8 +4,11 @@
 def translator(phrase):
     translated_phrase = ""
     for letter in phrase:
-        if letter in "AEIOUaeiou":
-            translated_phrase = translated_phrase + "g"
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translated_phrase = translated_phrase + "G"
+            else:
+                translated_phrase = translated_phrase + "g"
         else:
             translated_phrase = translated_phrase + letter
     return translated_phrase
