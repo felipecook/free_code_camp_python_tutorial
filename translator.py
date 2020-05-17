@@ -1,3 +1,9 @@
+'''
+hahaha
+i can comment as much
+as i want in these comment blocks
+# and it wont matter
+'''
 
 
 # will translate any vowels into the letter g in a phrase that is prompted to the user
@@ -15,4 +21,3 @@ def translator(phrase):
 
 
 print(translator(input("Enter a phrase to be translated: ")))
-
